@@ -1,7 +1,11 @@
 # Project2 
-**Main goal: predicting judgment**  
+**Main goal1: predicting judgment**  
 Overall process: Data preprocessing --> Data augmentation (back translation) --> Additional Masking --> Prediction.  
 In the domain of instance recognition, we meticulously transformed the original term to 'wizard' and 'sorcerer' to ensure semantic precision. Recognizing the intricacies of advanced NLP tasks, we adopted data augmentation strategies, principally employing back translation. Our primary transition sequence was English-German-English, a choice made to preserve the original context while introducing diverse lexemes within analogous scenarios. As a culminating step, we incorporated word masking for specific terminologies that potentially serve as pivotal indicators for adjudicating the victors. This was designed to enable the model to grasp the phonetic nuances and implications of these critical terms.
+
+**Main goal2: predicting price of used car**  
+Using ML models to predict price of used car.   
+Catboost, autoML, SVR are used.  
 
 # Deberta
 ![image](https://github.com/edwardhan925192/Project2/assets/127165920/56ebcdf9-de5e-4c2d-b831-72ce4df0786c)  
