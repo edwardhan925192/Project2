@@ -2,7 +2,7 @@
 **Main goal: predicting judgment**
 
 # Deberta
-![image](https://github.com/edwardhan925192/Project2/assets/127165920/56ebcdf9-de5e-4c2d-b831-72ce4df0786c)
+![image](https://github.com/edwardhan925192/Project2/assets/127165920/56ebcdf9-de5e-4c2d-b831-72ce4df0786c)  
 DeBERTa (Decoding-enhanced BERT with Disentangled Attention) is an advanced transformer-based model for natural language processing tasks. Introduced by Microsoft Research, DeBERTa improves upon the BERT and RoBERTa models by introducing two major innovations:
 
 Disentangled Attention Mechanism: Traditional transformer models like BERT use self-attention mechanisms where the attention scores depend on dot-products of query and key vectors. DeBERTa disentangles the content and position in the attention scores by computing them separately and then combines them. This allows for more flexibility and fine-grained modeling of the attention mechanism.
