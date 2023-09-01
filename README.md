@@ -1,5 +1,5 @@
 # Project2 
-**Main goal1: predicting judgment**  
+**Main goal: predicting judgment**  
 Overall process: Data preprocessing --> Data augmentation (back translation) --> Additional Masking --> Prediction.  
 In the domain of instance recognition, we meticulously transformed the original term to 'wizard' and 'sorcerer' to ensure semantic precision. Recognizing the intricacies of advanced NLP tasks, we adopted data augmentation strategies, principally employing back translation. Our primary transition sequence was English-German-English, a choice made to preserve the original context while introducing diverse lexemes within analogous scenarios. As a culminating step, we incorporated word masking for specific terminologies that potentially serve as pivotal indicators for adjudicating the victors. This was designed to enable the model to grasp the phonetic nuances and implications of these critical terms.
 
